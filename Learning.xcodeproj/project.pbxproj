@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F19C03A92AD37F580049FF5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03A82AD37F580049FF5D /* main.swift */; };
+		F19C03B52AD3997F0049FF5D /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03B42AD3997F0049FF5D /* protocols.swift */; };
+		F19C03B72AD3998B0049FF5D /* concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03B62AD3998B0049FF5D /* concurrency.swift */; };
+		F19C03B92AD399F20049FF5D /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03B82AD399F20049FF5D /* enums.swift */; };
+		F19C03BB2AD39C3B0049FF5D /* errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03BA2AD39C3B0049FF5D /* errors.swift */; };
+		F19C03BD2AD39F400049FF5D /* generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03BC2AD39F400049FF5D /* generics.swift */; };
+		F19C03BF2AD3A1730049FF5D /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03BE2AD3A1730049FF5D /* classes.swift */; };
+		F19C03C12AD3A1BB0049FF5D /* tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C03C02AD3A1BB0049FF5D /* tour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		F19C03A52AD37F580049FF5D /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19C03A82AD37F580049FF5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F19C03B42AD3997F0049FF5D /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		F19C03B62AD3998B0049FF5D /* concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concurrency.swift; sourceTree = "<group>"; };
+		F19C03B82AD399F20049FF5D /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		F19C03BA2AD39C3B0049FF5D /* errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errors.swift; sourceTree = "<group>"; };
+		F19C03BC2AD39F400049FF5D /* generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics.swift; sourceTree = "<group>"; };
+		F19C03BE2AD3A1730049FF5D /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		F19C03C02AD3A1BB0049FF5D /* tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 		F19C03A72AD37F580049FF5D /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				F19C03BE2AD3A1730049FF5D /* classes.swift */,
+				F19C03BC2AD39F400049FF5D /* generics.swift */,
+				F19C03C02AD3A1BB0049FF5D /* tour.swift */,
 				F19C03A82AD37F580049FF5D /* main.swift */,
+				F19C03B42AD3997F0049FF5D /* protocols.swift */,
+				F19C03B62AD3998B0049FF5D /* concurrency.swift */,
+				F19C03B82AD399F20049FF5D /* enums.swift */,
+				F19C03BA2AD39C3B0049FF5D /* errors.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19C03BF2AD3A1730049FF5D /* classes.swift in Sources */,
 				F19C03A92AD37F580049FF5D /* main.swift in Sources */,
+				F19C03B52AD3997F0049FF5D /* protocols.swift in Sources */,
+				F19C03BB2AD39C3B0049FF5D /* errors.swift in Sources */,
+				F19C03B92AD399F20049FF5D /* enums.swift in Sources */,
+				F19C03B72AD3998B0049FF5D /* concurrency.swift in Sources */,
+				F19C03BD2AD39F400049FF5D /* generics.swift in Sources */,
+				F19C03C12AD3A1BB0049FF5D /* tour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
